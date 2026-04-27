@@ -1,0 +1,39 @@
+# Robots.txt for ile-des-soeurs-condo-rent-2026
+# Tells search engines how to crawl and index the site
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow private or admin pages
+Disallow: /private/
+Disallow: /.git/
+
+# DELETION HANDLING:
+# When you delete a page, add it here so search engines know it's gone:
+# Disallow: /old-listing-page/
+# Disallow: /archived-content/
+# And ALSO remove it from sitemap.xml
+
+# Sitemap location - helps search engines find all pages
+Sitemap: https://javadbayazi.github.io/ile-des-soeurs-condo-rent-2026/sitemap.xml
+
+# Crawl delay (in seconds) - be nice to servers
+Crawl-delay: 1
+
+# Specific rules for common search engine bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
