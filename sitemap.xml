@@ -15,9 +15,27 @@
       <image:title>Bright 1-Bedroom Condo - Nuns' Island</image:title>
     </image:image>
   </url>
+  <!-- French version homepage -->
+  <url>
+    <loc>https://javadbayazi.github.io/ile-des-soeurs-condo-rent-2026/fr/</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://media.kijiji.ca/api/v1/ca-prod-fsbo-ads/images/6a/6a3c3088-df7f-450f-9cf7-984414aca248?rule=kijijica-640-webp</image:loc>
+      <image:title>Condo lumineux 1 chambre - Île-des-Soeurs</image:title>
+    </image:image>
+  </url>
   <!-- Property details page -->
   <url>
     <loc>https://javadbayazi.github.io/ile-des-soeurs-condo-rent-2026/README.md</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- French property details page -->
+  <url>
+    <loc>https://javadbayazi.github.io/ile-des-soeurs-condo-rent-2026/README.fr.md</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
